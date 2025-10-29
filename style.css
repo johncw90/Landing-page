@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-section {
+  background: #1f2937;
+  padding: 20px 500px 100px 500px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero-main-title {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-main-text,
+.header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-links {
+  display: flex;
+  gap: 24px;
+}
+
+.header-links li {
+  display: inline;
+}
+
+
+
+.logo-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 110px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-left {
+  width: 450px;
+}
+
+.signup-btn {
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: #eee;
+  border: none;
+  padding: 6px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.todo-section {
+  padding-bottom: 126px;
+}
+
+.todo-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-size: 18px;
+}
+
+.info-box {
+  width: 200px;
+  text-align: center;
+}
+
+.info-box img {
+  border-radius: 12px;
+}
+
+.quote-section {
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 130px 580px;
+}
+
+.author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 60px;
+  margin-top: 20px;
+}
+
+.call-section {
+  background-color: #eee;
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.call-box {
+  background: #3882f6;
+  color: #e5e7eb;
+  padding: 50px 150px;
+  width: 1100px;
+  border-radius: 15px;
+}
+
+.call-p-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action {
+  color: #eee;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.call-btn {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3882f6;
+  border: 3px solid #eee;
+  color: #eee;
+  border-radius: 10px;
+  padding: 0 32px;
+}
